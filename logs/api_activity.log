@@ -1,0 +1,71 @@
+2025-07-01 14:51:24,430 - INFO - Request ID: 58f1ca6f-aa6f-4baa-a77e-7faaf6bef26b | Endpoint: /docs | Method: GET | Message: Request started
+2025-07-01 14:51:24,430 - INFO - Request ID: 58f1ca6f-aa6f-4baa-a77e-7faaf6bef26b | Endpoint: /docs | Method: GET | Status: 200 | Message: Request finished. Processed in 0.00 ms
+2025-07-01 14:51:25,328 - INFO - Request ID: 30602106-b164-433d-8527-25930864efca | Endpoint: /openapi.json | Method: GET | Message: Request started
+2025-07-01 14:51:25,343 - INFO - Request ID: 30602106-b164-433d-8527-25930864efca | Endpoint: /openapi.json | Method: GET | Status: 200 | Message: Request finished. Processed in 15.36 ms
+2025-07-01 14:53:23,862 - INFO - Request ID: ceba20a0-5f28-4c4d-b7b5-fb0398450d6b | Endpoint: /upload-csv/ | Method: POST | Message: Request started
+2025-07-01 14:53:23,987 - INFO - Request ID: 7e8f368a-1eea-430e-9810-7eea8c067bad | Endpoint: /upload-csv/ | Method: POST | Status: 400 | Message: Validation failed: An unexpected error occurred during validation: Error while coercing 'age' to type int64: Could not coerce <class 'pandas.core.series.Series'> data_container into type int64:
+   index  failure_case
+0      4           NaN
+2025-07-01 14:53:23,992 - INFO - Request ID: 7e8f368a-1eea-430e-9810-7eea8c067bad | Endpoint: /upload-csv/ | Method: POST | Status: 500 | Message: Internal server error during upload: 400: CSV data validation failed: An unexpected error occurred during validation: Error while coercing 'age' to type int64: Could not coerce <class 'pandas.core.series.Series'> data_container into type int64:
+   index  failure_case
+0      4           NaN
+2025-07-01 14:53:23,994 - INFO - Request ID: ceba20a0-5f28-4c4d-b7b5-fb0398450d6b | Endpoint: /upload-csv/ | Method: POST | Status: 500 | Message: Request finished. Processed in 132.11 ms
+2025-07-01 14:54:01,676 - INFO - Request ID: 271b7e1f-219c-4261-8df3-59e5817b04a1 | Endpoint: /data/ | Method: GET | Message: Request started
+2025-07-01 14:54:01,705 - INFO - Request ID: 271b7e1f-219c-4261-8df3-59e5817b04a1 | Endpoint: /data/ | Method: GET | Status: 200 | Message: Request finished. Processed in 28.79 ms
+2025-07-01 14:57:43,906 - INFO - Request ID: c06d3b58-499c-49da-86a0-0dc3e378637d | Endpoint: /docs | Method: GET | Message: Request started
+2025-07-01 14:57:43,906 - INFO - Request ID: c06d3b58-499c-49da-86a0-0dc3e378637d | Endpoint: /docs | Method: GET | Status: 200 | Message: Request finished. Processed in 0.00 ms
+2025-07-01 14:57:44,133 - INFO - Request ID: d65ac8df-d3ae-4fee-a2b7-9237a2947a5a | Endpoint: /openapi.json | Method: GET | Message: Request started
+2025-07-01 14:57:44,134 - INFO - Request ID: d65ac8df-d3ae-4fee-a2b7-9237a2947a5a | Endpoint: /openapi.json | Method: GET | Status: 200 | Message: Request finished. Processed in 1.00 ms
+2025-07-01 14:57:59,820 - INFO - Request ID: 75cb8708-a490-498b-aaf1-6ea908d5cac4 | Endpoint: /upload-csv/ | Method: POST | Message: Request started
+2025-07-01 14:57:59,851 - INFO - Request ID: 9a9b5e3e-47df-4889-8805-d5ef12e92407 | Endpoint: /upload-csv/ | Method: POST | Status: 400 | Message: Validation failed: An unexpected error occurred during validation: Error while coercing 'signup_date' to type date: Could not coerce <class 'pandas.core.series.Series'> data_container into type date:
+   index                              failure_case
+0      4  2024-01-10  <-- Added '29' for Eve's age
+2025-07-01 14:57:59,851 - INFO - Request ID: 9a9b5e3e-47df-4889-8805-d5ef12e92407 | Endpoint: /upload-csv/ | Method: POST | Status: 500 | Message: Internal server error during upload: 400: CSV data validation failed: An unexpected error occurred during validation: Error while coercing 'signup_date' to type date: Could not coerce <class 'pandas.core.series.Series'> data_container into type date:
+   index                              failure_case
+0      4  2024-01-10  <-- Added '29' for Eve's age
+2025-07-01 14:57:59,851 - INFO - Request ID: 75cb8708-a490-498b-aaf1-6ea908d5cac4 | Endpoint: /upload-csv/ | Method: POST | Status: 500 | Message: Request finished. Processed in 30.38 ms
+2025-07-01 14:58:27,613 - INFO - Request ID: 33556ff7-911a-42c0-91ca-4ddb7c9c5ba9 | Endpoint: /data/ | Method: GET | Message: Request started
+2025-07-01 14:58:27,619 - INFO - Request ID: 33556ff7-911a-42c0-91ca-4ddb7c9c5ba9 | Endpoint: /data/ | Method: GET | Status: 200 | Message: Request finished. Processed in 6.06 ms
+2025-07-01 15:01:44,556 - INFO - Request ID: 6d9eaf56-ee1c-4965-aa9f-6df98c8539e5 | Endpoint: /docs | Method: GET | Message: Request started
+2025-07-01 15:01:44,557 - INFO - Request ID: 6d9eaf56-ee1c-4965-aa9f-6df98c8539e5 | Endpoint: /docs | Method: GET | Status: 200 | Message: Request finished. Processed in 1.10 ms
+2025-07-01 15:01:44,748 - INFO - Request ID: 0a091d5c-1f9c-45b8-9eb4-4addc472db75 | Endpoint: /openapi.json | Method: GET | Message: Request started
+2025-07-01 15:01:44,749 - INFO - Request ID: 0a091d5c-1f9c-45b8-9eb4-4addc472db75 | Endpoint: /openapi.json | Method: GET | Status: 200 | Message: Request finished. Processed in 1.00 ms
+2025-07-01 15:02:01,614 - INFO - Request ID: abd5d2f9-ff6c-4912-b696-1f006e38406c | Endpoint: /upload-csv/ | Method: POST | Message: Request started
+2025-07-01 15:02:01,657 - INFO - Request ID: 34745d5d-f464-4695-a667-c31eccfda609 | Endpoint: /upload-csv/ | Method: POST | Status: 500 | Message: Internal server error during upload: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO uploaded_data (original_filename, row_number, data, uploaded_at) VALUES (?, ?, ?, ?) RETURNING id]
+[parameters: [{'data': {'id': 1, 'name': 'Alice', 'age': 30, 'email': 'alice@example.com', 'is_active': True, 'signup_date': datetime.date(2023, 1, 15)}, 'row_number': 1, 'original_filename': 'sample.csv'}, {'data': {'id': 2, 'name': 'Bob', 'age': 24, 'email': 'bob@example.com', 'is_active': False, 'signup_date': datetime.date(2022, 11, 1)}, 'row_number': 2, 'original_filename': 'sample.csv'}, {'data': {'id': 3, 'name': 'Charlie', 'age': 35, 'email': 'charlie@example.com', 'is_active': True, 'signup_date': datetime.date(2024, 3, 20)}, 'row_number': 3, 'original_filename': 'sample.csv'}, {'data': {'id': 4, 'name': 'Diana', 'age': 28, 'email': 'diana@example.com', 'is_active': True, 'signup_date': datetime.date(2023, 7, 1)}, 'row_number': 4, 'original_filename': 'sample.csv'}, {'data': {'id': 5, 'name': 'Eve', 'age': 29, 'email': 'eve@example.com', 'is_active': False, 'signup_date': datetime.date(2024, 1, 10)}, 'row_number': 5, 'original_filename': 'sample.csv'}]]
+2025-07-01 15:02:01,657 - INFO - Request ID: abd5d2f9-ff6c-4912-b696-1f006e38406c | Endpoint: /upload-csv/ | Method: POST | Status: 500 | Message: Request finished. Processed in 43.12 ms
+2025-07-01 15:02:09,669 - INFO - Request ID: f43d97ea-9085-480e-a842-04f8982c042e | Endpoint: /data/ | Method: GET | Message: Request started
+2025-07-01 15:02:09,694 - INFO - Request ID: f43d97ea-9085-480e-a842-04f8982c042e | Endpoint: /data/ | Method: GET | Status: 200 | Message: Request finished. Processed in 24.89 ms
+2025-07-01 15:06:12,367 - INFO - Request ID: 9790e194-fe49-45b8-8594-35434dc26e5f | Endpoint: /docs | Method: GET | Message: Request started
+2025-07-01 15:06:12,367 - INFO - Request ID: 9790e194-fe49-45b8-8594-35434dc26e5f | Endpoint: /docs | Method: GET | Status: 200 | Message: Request finished. Processed in 0.00 ms
+2025-07-01 15:06:12,557 - INFO - Request ID: efd42aa0-770d-4850-a39e-08cab8643669 | Endpoint: /openapi.json | Method: GET | Message: Request started
+2025-07-01 15:06:12,570 - INFO - Request ID: efd42aa0-770d-4850-a39e-08cab8643669 | Endpoint: /openapi.json | Method: GET | Status: 200 | Message: Request finished. Processed in 13.27 ms
+2025-07-01 15:06:26,880 - INFO - Request ID: e7caf581-d739-49ed-8360-8b23e308e90f | Endpoint: /upload-csv/ | Method: POST | Message: Request started
+2025-07-01 15:06:26,981 - INFO - Request ID: 53fd19f4-d4e9-48ff-b2c6-b29c8132538d | Endpoint: /upload-csv/ | Method: POST | Status: 200 | Message: Successfully uploaded and stored 5 rows from sample.csv.
+2025-07-01 15:06:26,981 - INFO - Request ID: e7caf581-d739-49ed-8360-8b23e308e90f | Endpoint: /upload-csv/ | Method: POST | Status: 200 | Message: Request finished. Processed in 101.55 ms
+2025-07-01 15:06:40,868 - INFO - Request ID: d2f2e707-e201-4757-8e37-16940342049e | Endpoint: /data/ | Method: GET | Message: Request started
+2025-07-01 15:06:40,904 - INFO - Request ID: bf0826f5-d7b0-4182-8f1e-3cf75b0dc558 | Endpoint: /data/ | Method: GET | Status: 200 | Message: Retrieved 5 data items.
+2025-07-01 15:06:40,904 - INFO - Request ID: d2f2e707-e201-4757-8e37-16940342049e | Endpoint: /data/ | Method: GET | Status: 200 | Message: Request finished. Processed in 35.54 ms
+2025-07-01 15:09:15,055 - INFO - Request ID: 1c367235-6414-4f40-bdf0-a0620001dbf6 | Endpoint: /data/1 | Method: GET | Message: Request started
+2025-07-01 15:09:15,084 - INFO - Request ID: 7741b821-1f02-491d-9d38-7e8c12666176 | Endpoint: /data/1 | Method: GET | Status: 200 | Message: Retrieved data item with ID 1.
+2025-07-01 15:09:15,084 - INFO - Request ID: 1c367235-6414-4f40-bdf0-a0620001dbf6 | Endpoint: /data/1 | Method: GET | Status: 200 | Message: Request finished. Processed in 28.88 ms
+2025-07-01 15:10:34,010 - INFO - Request ID: bed936b5-f74b-4d30-8445-575ac7ee0751 | Endpoint: /data/1 | Method: DELETE | Message: Request started
+2025-07-01 15:10:34,022 - INFO - Request ID: 89e37603-e1fe-46c2-86f9-4435122fdbe8 | Endpoint: /data/1 | Method: DELETE | Status: 200 | Message: Successfully deleted data item with ID 1.
+2025-07-01 15:10:34,028 - INFO - Request ID: bed936b5-f74b-4d30-8445-575ac7ee0751 | Endpoint: /data/1 | Method: DELETE | Status: 200 | Message: Request finished. Processed in 19.25 ms
+2025-07-01 15:11:36,286 - INFO - Request ID: 864f5e5e-1804-4ef7-b6d7-4e209ba5a5d8 | Endpoint: /data/1 | Method: GET | Message: Request started
+2025-07-01 15:11:36,289 - INFO - Request ID: eb2aba6d-d269-4a6b-bdfe-b06bce19d5f9 | Endpoint: /data/1 | Method: GET | Status: 404 | Message: Data item with ID 1 not found.
+2025-07-01 15:11:36,297 - INFO - Request ID: 864f5e5e-1804-4ef7-b6d7-4e209ba5a5d8 | Endpoint: /data/1 | Method: GET | Status: 404 | Message: Request finished. Processed in 11.38 ms
+2025-07-01 15:13:42,378 - INFO - Request ID: 38991e14-43b1-4870-81b4-5f9914e2fece | Endpoint: /data/ | Method: GET | Message: Request started
+2025-07-01 15:13:42,380 - INFO - Request ID: 0035f083-8d07-4bc6-a508-15cc9ea9cd66 | Endpoint: /data/ | Method: GET | Message: Filtering data by name=Bob
+2025-07-01 15:13:42,383 - INFO - Request ID: 26fbda9b-0bff-4cc7-b8bb-7a5531029925 | Endpoint: /data/ | Method: GET | Status: 200 | Message: Retrieved 1 data items.
+2025-07-01 15:13:42,383 - INFO - Request ID: 38991e14-43b1-4870-81b4-5f9914e2fece | Endpoint: /data/ | Method: GET | Status: 200 | Message: Request finished. Processed in 5.17 ms
+2025-07-01 15:14:42,738 - INFO - Request ID: ff30bba3-f154-41e1-a3c5-b0f6a1471638 | Endpoint: /data/ | Method: GET | Message: Request started
+2025-07-01 15:14:42,741 - INFO - Request ID: 53bfd692-c2b9-46bd-8ac5-29f70f098e72 | Endpoint: /data/ | Method: GET | Message: Filtering data by age=30
+2025-07-01 15:14:42,743 - INFO - Request ID: ff30bba3-f154-41e1-a3c5-b0f6a1471638 | Endpoint: /data/ | Method: GET | Status: 200 | Message: Request finished. Processed in 5.00 ms
+2025-07-01 15:15:31,382 - INFO - Request ID: 04eceadf-a3ad-4e84-abbc-e62640af5415 | Endpoint: /data/ | Method: GET | Message: Request started
+2025-07-01 15:15:31,384 - INFO - Request ID: 7d2b97cd-e03b-443c-b1f1-1058fc3e8c4f | Endpoint: /data/ | Method: GET | Message: Filtering data by is_active=True
+2025-07-01 15:15:31,401 - INFO - Request ID: 04eceadf-a3ad-4e84-abbc-e62640af5415 | Endpoint: /data/ | Method: GET | Status: 200 | Message: Request finished. Processed in 19.29 ms
+2025-07-01 15:15:47,187 - INFO - Request ID: fea3d8e5-cdc7-4565-95fc-6032637b3ef0 | Endpoint: /data/ | Method: GET | Message: Request started
+2025-07-01 15:15:47,189 - INFO - Request ID: 591a4b0b-1b46-4d2f-aac5-467a444f3d81 | Endpoint: /data/ | Method: GET | Message: Filtering data by is_active=False
+2025-07-01 15:15:47,190 - INFO - Request ID: fea3d8e5-cdc7-4565-95fc-6032637b3ef0 | Endpoint: /data/ | Method: GET | Status: 200 | Message: Request finished. Processed in 3.00 ms
